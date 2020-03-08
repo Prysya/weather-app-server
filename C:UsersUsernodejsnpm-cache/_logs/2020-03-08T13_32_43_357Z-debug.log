@@ -1,0 +1,34 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'run', 'dev' ]
+2 info using npm@6.13.4
+3 info using node@v12.16.1
+4 verbose run-script [ 'predev', 'dev', 'postdev' ]
+5 info lifecycle web-server@1.0.0~predev: web-server@1.0.0
+6 info lifecycle web-server@1.0.0~dev: web-server@1.0.0
+7 verbose lifecycle web-server@1.0.0~dev: unsafe-perm in lifecycle true
+8 verbose lifecycle web-server@1.0.0~dev: PATH: /usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/igorkirpinev/Documents/Udemy/web-server/node_modules/.bin:/Users/igorkirpinev/.rvm/gems/ruby-2.6.0/bin:/Users/igorkirpinev/.rvm/gems/ruby-2.6.0@global/bin:/Users/igorkirpinev/.rvm/rubies/ruby-2.6.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/igorkirpinev/Documents/Udemy/web-server/node_modules/.bin:/Users/igorkirpinev/.rvm/bin
+9 verbose lifecycle web-server@1.0.0~dev: CWD: /Users/igorkirpinev/Documents/Udemy/web-server
+10 silly lifecycle web-server@1.0.0~dev: Args: [ '-c', 'nodemon src/app.js -e js,hbs' ]
+11 silly lifecycle web-server@1.0.0~dev: Returned: code: 130  signal: null
+12 info lifecycle web-server@1.0.0~dev: Failed to exec dev script
+13 verbose stack Error: web-server@1.0.0 dev: `nodemon src/app.js -e js,hbs`
+13 verbose stack Exit status 130
+13 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/index.js:332:16)
+13 verbose stack     at EventEmitter.emit (events.js:311:20)
+13 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:55:14)
+13 verbose stack     at ChildProcess.emit (events.js:311:20)
+13 verbose stack     at maybeClose (internal/child_process.js:1021:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:286:5)
+14 verbose pkgid web-server@1.0.0
+15 verbose cwd /Users/igorkirpinev/Documents/Udemy/web-server
+16 verbose Darwin 19.3.0
+17 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "run" "dev"
+18 verbose node v12.16.1
+19 verbose npm  v6.13.4
+20 error code ELIFECYCLE
+21 error errno 130
+22 error web-server@1.0.0 dev: `nodemon src/app.js -e js,hbs`
+22 error Exit status 130
+23 error Failed at the web-server@1.0.0 dev script.
+23 error This is probably not a problem with npm. There is likely additional logging output above.
+24 verbose exit [ 130, true ]

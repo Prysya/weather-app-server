@@ -5,7 +5,7 @@ const { DARKSKY_KEY } = process.env;
 const forecast = (latitude, longitude, callback) => {
   const url = `https://api.darksky.net/forecast/${DARKSKY_KEY}/${latitude},${longitude}?lang=ru&units=si`;
 
-  request({ url, json: true }, (error, { body }) => {
+  request({ url, json: true }, (error, { body } = {}) => {
     if (error) {
       callback("Не удается подключиться к серверу!", undefined);
     } else if (body.error) {
