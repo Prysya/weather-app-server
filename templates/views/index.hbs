@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Погода</title>
+        <link rel="icon" href="/img/weather.png">
+        <link rel="stylesheet" href="/css/style.css" />
+    </head>
+
+    <body class="page">
+        <div class="wrapper">
+            {{>header}}
+
+            <p>Используйте поиск чтобы узнать погоду!</p>
+
+            <form class="wrapper__form">
+                <input class="wrapper__input" type="text" name="location" placeholder="Место расположения">
+                <button class="wrapper__button">Поиск</button>
+            </form>
+
+            <p class="wrapper__type"></p>
+            <p class="wrapper__message"></p>
+        </div>
+        {{>footer}}
+        <script src="/js/app.js"></script>
+    </body>
+</html>
